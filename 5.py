@@ -12,7 +12,7 @@ numbers = input().split()
 
 for i in numbers:
     if numbers.count(i) > 1:
-        while not (numbers.count(i) == 1):
+        while not (numbers.count(i) == 0):
             numbers.remove(i)
 
 print(numbers)
